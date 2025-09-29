@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velvet Vogue - Payment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Velvet Vogue Logo" class="logo">
+        <h1>Velvet Vogue</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="cart.html">Shopping Cart</a></li>
+                <li><a href="account.html">User Account</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="payment">
+        <h2>Payment Information</h2>
+        <p>Please fill out the form below to complete your purchase.</p>
+        
+        <form action="submit_payment.php" method="post">
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="address">Billing Address:</label>
+                <input type="text" id="address" name="address" required>
+            </div>
+
+            <!-- Payment Methods Section -->
+            <div class="payment-methods">
+                <h3>Select Payment Method</h3>
+                
+                <!-- Credit Card Payment -->
+                <label for="credit-card">Credit Card Number:</label>
+                <input type="text" id="credit-card" name="credit-card" pattern="\d{16}" placeholder="Enter 16-digit card number" required>
+                <label for="expiry">Expiration Date (MM/YY):</label>
+                <input type="text" id="expiry" name="expiry" pattern="\d{2}/\d{2}" placeholder="MM/YY" required>
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="cvv" pattern="\d{3}" placeholder="Enter CVV" required>
+                
+                <!-- Credit Card Images -->
+                <div class="credit-cards">
+                    <img src="visa.png" alt="Visa" width="50">
+                    <img src="mastercard.png" alt="Mastercard" width="50">
+                    <img src="amex.png" alt="American Express" width="50">
+                </div>
+
+                <!-- PayPal Option -->
+                <label for="paypal">Pay with PayPal:</label>
+                <input type="radio" id="paypal" name="payment-method" value="paypal" required>
+                <img src="paypal.png" alt="PayPal" width="150">
+
+                <!-- Cash on Delivery Option -->
+                <label for="cod">Cash on Delivery (COD):</label>
+                <input type="radio" id="cod" name="payment-method" value="cod" required>
+                <p>Additional $30 for delivery payment.</p>
+                
+                <!-- Star Points Payment Option -->
+                <div class="star-points">
+                    <label for="star-points">Pay with Star Points:</label>
+                    <input type="checkbox" id="star-points" name="payment-method" value="star-points">
+                    <p>Use your earned 10-star points for payment. (You currently have 10 points.)</p>
+                </div>
+
+                <!-- EMI Payment Option -->
+                <div class="emi-options">
+                    <label for="emi">EMI Payment Options:</label>
+                    <select id="emi" name="emi">
+                        <option value="none">Select EMI Option</option>
+                        <option value="3-months">3 Months</option>
+                        <option value="6-months">6 Months</option>
+                        <option value="12-months">12 Months</option>
+                    </select>
+                    <p>Pay in monthly installments.</p>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="amount">Amount to Pay:</label>
+                <input type="text" id="amount" name="amount" value="$130.00" readonly>
+            </div>
+
+            <button type="submit">Proceed with Payment</button>
+        </form>
+        
+        <!-- Payment Success Message -->
+        <div id="payment-success-message" style="display:none;">
+            <h3>Payment Successful!</h3>
+            <p>Thank you for your purchase. You have earned 10-star points with this transaction!</p>
+            <p>Your order will be processed shortly, and you will receive an email confirmation soon.</p>
+        </div>
+    </section>
+    
+    <footer>
+        <h3>Contact Us</h3>
+        <p>Email: support@velvetvogue.com</p>
+        <p>Phone: +1 234 567 890</p>
+        <div class="social-media">
+            <a href="#"><img src="facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="twitter.png" alt="Twitter"></a>
+        </div>
+    </footer>
+
+    <!-- Add the script here -->
+    <script src="payment.js"></script>
+</body>
+</html>

@@ -1,0 +1,1162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EAD1B0F3-9958-478D-BCE5-DA8C964FF510}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>E_space</RootNamespace>
+    <AssemblyName>E space</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="E_SpaceDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet15.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet16.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet17.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet17.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet18.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet18.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet19.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet19.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet20.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet20.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet21.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet21.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet22.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet22.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet23.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet23.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet24.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet24.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet25.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet25.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet26.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet26.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet27.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet27.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet28.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet28.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet29.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet29.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet30.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet30.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet31.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet31.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet32.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet32.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet33.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet33.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet34.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet34.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet35.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet35.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet36.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet36.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet37.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet37.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet38.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet38.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet39.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet39.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet40.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet40.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet41.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet41.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet42.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet42.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet43.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet43.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet44.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet44.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet45.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet45.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet46.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet46.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet47.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet47.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet48.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet48.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet49.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet49.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet50.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet50.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet51.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet51.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet52.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet52.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="E_SpaceDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>E_SpaceDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form10.Designer.cs">
+      <DependentUpon>Form10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form11.Designer.cs">
+      <DependentUpon>Form11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form12.Designer.cs">
+      <DependentUpon>Form12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form13.Designer.cs">
+      <DependentUpon>Form13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form14.Designer.cs">
+      <DependentUpon>Form14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form15.Designer.cs">
+      <DependentUpon>Form15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form16.Designer.cs">
+      <DependentUpon>Form16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form17.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form17.Designer.cs">
+      <DependentUpon>Form17.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form18.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form18.Designer.cs">
+      <DependentUpon>Form18.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form19.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form19.Designer.cs">
+      <DependentUpon>Form19.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form20.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form20.Designer.cs">
+      <DependentUpon>Form20.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form21.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form21.Designer.cs">
+      <DependentUpon>Form21.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form22.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form22.Designer.cs">
+      <DependentUpon>Form22.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form23.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form23.Designer.cs">
+      <DependentUpon>Form23.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form24.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form24.Designer.cs">
+      <DependentUpon>Form24.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form25.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form25.Designer.cs">
+      <DependentUpon>Form25.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form26.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form26.Designer.cs">
+      <DependentUpon>Form26.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7.Designer.cs">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form8.Designer.cs">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form9.Designer.cs">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form10.resx">
+      <DependentUpon>Form10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form11.resx">
+      <DependentUpon>Form11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form12.resx">
+      <DependentUpon>Form12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form13.resx">
+      <DependentUpon>Form13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form14.resx">
+      <DependentUpon>Form14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form15.resx">
+      <DependentUpon>Form15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form16.resx">
+      <DependentUpon>Form16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form17.resx">
+      <DependentUpon>Form17.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form18.resx">
+      <DependentUpon>Form18.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form19.resx">
+      <DependentUpon>Form19.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form20.resx">
+      <DependentUpon>Form20.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form21.resx">
+      <DependentUpon>Form21.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form22.resx">
+      <DependentUpon>Form22.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form23.resx">
+      <DependentUpon>Form23.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form24.resx">
+      <DependentUpon>Form24.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form25.resx">
+      <DependentUpon>Form25.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form26.resx">
+      <DependentUpon>Form26.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7.resx">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form8.resx">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form9.resx">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="E_SpaceDataSet.xsc">
+      <DependentUpon>E_SpaceDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet.xss">
+      <DependentUpon>E_SpaceDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet1.xsc">
+      <DependentUpon>E_SpaceDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet1.xss">
+      <DependentUpon>E_SpaceDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet10.xsc">
+      <DependentUpon>E_SpaceDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet10.xss">
+      <DependentUpon>E_SpaceDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet11.xsc">
+      <DependentUpon>E_SpaceDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet11.xss">
+      <DependentUpon>E_SpaceDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet12.xsc">
+      <DependentUpon>E_SpaceDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet12.xss">
+      <DependentUpon>E_SpaceDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet13.xsc">
+      <DependentUpon>E_SpaceDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet13.xss">
+      <DependentUpon>E_SpaceDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet14.xsc">
+      <DependentUpon>E_SpaceDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet14.xss">
+      <DependentUpon>E_SpaceDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet15.xsc">
+      <DependentUpon>E_SpaceDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet15.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet15.xss">
+      <DependentUpon>E_SpaceDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet16.xsc">
+      <DependentUpon>E_SpaceDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet16.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet16.xss">
+      <DependentUpon>E_SpaceDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet17.xsc">
+      <DependentUpon>E_SpaceDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet17.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet17.xss">
+      <DependentUpon>E_SpaceDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet18.xsc">
+      <DependentUpon>E_SpaceDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet18.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet18.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet18.xss">
+      <DependentUpon>E_SpaceDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet19.xsc">
+      <DependentUpon>E_SpaceDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet19.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet19.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet19.xss">
+      <DependentUpon>E_SpaceDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet2.xsc">
+      <DependentUpon>E_SpaceDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet2.xss">
+      <DependentUpon>E_SpaceDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet20.xsc">
+      <DependentUpon>E_SpaceDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet20.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet20.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet20.xss">
+      <DependentUpon>E_SpaceDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet21.xsc">
+      <DependentUpon>E_SpaceDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet21.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet21.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet21.xss">
+      <DependentUpon>E_SpaceDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet22.xsc">
+      <DependentUpon>E_SpaceDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet22.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet22.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet22.xss">
+      <DependentUpon>E_SpaceDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet23.xsc">
+      <DependentUpon>E_SpaceDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet23.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet23.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet23.xss">
+      <DependentUpon>E_SpaceDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet24.xsc">
+      <DependentUpon>E_SpaceDataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet24.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet24.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet24.xss">
+      <DependentUpon>E_SpaceDataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet25.xsc">
+      <DependentUpon>E_SpaceDataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet25.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet25.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet25.xss">
+      <DependentUpon>E_SpaceDataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet26.xsc">
+      <DependentUpon>E_SpaceDataSet26.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet26.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet26.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet26.xss">
+      <DependentUpon>E_SpaceDataSet26.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet27.xsc">
+      <DependentUpon>E_SpaceDataSet27.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet27.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet27.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet27.xss">
+      <DependentUpon>E_SpaceDataSet27.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet28.xsc">
+      <DependentUpon>E_SpaceDataSet28.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet28.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet28.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet28.xss">
+      <DependentUpon>E_SpaceDataSet28.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet29.xsc">
+      <DependentUpon>E_SpaceDataSet29.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet29.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet29.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet29.xss">
+      <DependentUpon>E_SpaceDataSet29.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet3.xsc">
+      <DependentUpon>E_SpaceDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet3.xss">
+      <DependentUpon>E_SpaceDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet30.xsc">
+      <DependentUpon>E_SpaceDataSet30.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet30.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet30.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet30.xss">
+      <DependentUpon>E_SpaceDataSet30.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet31.xsc">
+      <DependentUpon>E_SpaceDataSet31.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet31.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet31.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet31.xss">
+      <DependentUpon>E_SpaceDataSet31.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet32.xsc">
+      <DependentUpon>E_SpaceDataSet32.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet32.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet32.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet32.xss">
+      <DependentUpon>E_SpaceDataSet32.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet33.xsc">
+      <DependentUpon>E_SpaceDataSet33.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet33.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet33.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet33.xss">
+      <DependentUpon>E_SpaceDataSet33.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet34.xsc">
+      <DependentUpon>E_SpaceDataSet34.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet34.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet34.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet34.xss">
+      <DependentUpon>E_SpaceDataSet34.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet35.xsc">
+      <DependentUpon>E_SpaceDataSet35.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet35.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet35.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet35.xss">
+      <DependentUpon>E_SpaceDataSet35.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet36.xsc">
+      <DependentUpon>E_SpaceDataSet36.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet36.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet36.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet36.xss">
+      <DependentUpon>E_SpaceDataSet36.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet37.xsc">
+      <DependentUpon>E_SpaceDataSet37.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet37.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet37.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet37.xss">
+      <DependentUpon>E_SpaceDataSet37.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet38.xsc">
+      <DependentUpon>E_SpaceDataSet38.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet38.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet38.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet38.xss">
+      <DependentUpon>E_SpaceDataSet38.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet39.xsc">
+      <DependentUpon>E_SpaceDataSet39.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet39.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet39.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet39.xss">
+      <DependentUpon>E_SpaceDataSet39.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet4.xsc">
+      <DependentUpon>E_SpaceDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet4.xss">
+      <DependentUpon>E_SpaceDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet40.xsc">
+      <DependentUpon>E_SpaceDataSet40.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet40.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet40.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet40.xss">
+      <DependentUpon>E_SpaceDataSet40.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet41.xsc">
+      <DependentUpon>E_SpaceDataSet41.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet41.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet41.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet41.xss">
+      <DependentUpon>E_SpaceDataSet41.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet42.xsc">
+      <DependentUpon>E_SpaceDataSet42.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet42.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet42.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet42.xss">
+      <DependentUpon>E_SpaceDataSet42.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet43.xsc">
+      <DependentUpon>E_SpaceDataSet43.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet43.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet43.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet43.xss">
+      <DependentUpon>E_SpaceDataSet43.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet44.xsc">
+      <DependentUpon>E_SpaceDataSet44.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet44.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet44.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet44.xss">
+      <DependentUpon>E_SpaceDataSet44.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet45.xsc">
+      <DependentUpon>E_SpaceDataSet45.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet45.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet45.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet45.xss">
+      <DependentUpon>E_SpaceDataSet45.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet46.xsc">
+      <DependentUpon>E_SpaceDataSet46.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet46.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet46.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet46.xss">
+      <DependentUpon>E_SpaceDataSet46.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet47.xsc">
+      <DependentUpon>E_SpaceDataSet47.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet47.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet47.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet47.xss">
+      <DependentUpon>E_SpaceDataSet47.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet48.xsc">
+      <DependentUpon>E_SpaceDataSet48.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet48.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet48.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet48.xss">
+      <DependentUpon>E_SpaceDataSet48.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet49.xsc">
+      <DependentUpon>E_SpaceDataSet49.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet49.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet49.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet49.xss">
+      <DependentUpon>E_SpaceDataSet49.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet5.xsc">
+      <DependentUpon>E_SpaceDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet5.xss">
+      <DependentUpon>E_SpaceDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet50.xsc">
+      <DependentUpon>E_SpaceDataSet50.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet50.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet50.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet50.xss">
+      <DependentUpon>E_SpaceDataSet50.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet51.xsc">
+      <DependentUpon>E_SpaceDataSet51.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet51.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet51.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet51.xss">
+      <DependentUpon>E_SpaceDataSet51.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet52.xsc">
+      <DependentUpon>E_SpaceDataSet52.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet52.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet52.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet52.xss">
+      <DependentUpon>E_SpaceDataSet52.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet6.xsc">
+      <DependentUpon>E_SpaceDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet6.xss">
+      <DependentUpon>E_SpaceDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet7.xsc">
+      <DependentUpon>E_SpaceDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet7.xss">
+      <DependentUpon>E_SpaceDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet8.xsc">
+      <DependentUpon>E_SpaceDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet8.xss">
+      <DependentUpon>E_SpaceDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet9.xsc">
+      <DependentUpon>E_SpaceDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="E_SpaceDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>E_SpaceDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="E_SpaceDataSet9.xss">
+      <DependentUpon>E_SpaceDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,103 @@
+C:\Users\A.S.Asbury\OneDrive\Documents\programming\leave management system\leave management system\bin\Debug\leave management system.exe.config
+C:\Users\A.S.Asbury\OneDrive\Documents\programming\leave management system\leave management system\bin\Debug\leave management system.exe
+C:\Users\A.S.Asbury\OneDrive\Documents\programming\leave management system\leave management system\bin\Debug\leave management system.pdb
+C:\Users\A.S.Asbury\OneDrive\Documents\programming\leave management system\leave management system\obj\Debug\leave management system.csprojResolveAssemblyReference.cache
+C:\Users\A.S.Asbury\OneDrive\Documents\programming\leave management system\leave management system\obj\Debug\leave_management_system.Form1.resources
+C:\Users\A.S.Asbury\OneDrive\Documents\programming\leave management system\leave management system\obj\Debug\leave_management_system.Properties.Resources.resources
+C:\Users\A.S.Asbury\OneDrive\Documents\programming\leave management system\leave management system\obj\Debug\leave management system.csproj.GenerateResource.Cache
+C:\Users\A.S.Asbury\OneDrive\Documents\programming\leave management system\leave management system\obj\Debug\leave management system.exe
+C:\Users\A.S.Asbury\OneDrive\Documents\programming\leave management system\leave management system\obj\Debug\leave management system.pdb
+C:\Users\A.S.Asbury\OneDrive\Documents\programming\leave management system\leave management system\obj\Debug\leave_management_system.Form2.resources
+C:\Users\A.S.Asbury\OneDrive\Documents\programming\leave management system\leave management system\obj\Debug\leave_management_system.Form3.resources
+C:\Users\A.S.Asbury\OneDrive\Documents\programming\leave management system\leave management system\obj\Debug\leave_management_system.Form4.resources
+C:\Users\A.S.Asbury\OneDrive\Documents\programming\leave management system\leave management system\obj\Debug\leave_management_system.Form5.resources
+C:\Users\A.S.Asbury\OneDrive\Documents\programming\leave management system\leave management system\obj\Debug\leave_management_system.Form6.resources
+C:\Users\A.S.Asbury\OneDrive\Documents\programming\leave management system\leave management system\obj\Debug\leave_management_system.Form10.resources
+C:\Users\A.S.Asbury\OneDrive\Documents\programming\leave management system\leave management system\obj\Debug\leave_management_system.Form7.resources
+C:\Users\A.S.Asbury\OneDrive\Documents\programming\leave management system\leave management system\obj\Debug\leave_management_system.Form8.resources
+C:\Users\A.S.Asbury\OneDrive\Documents\programming\leave management system\leave management system\obj\Debug\leave_management_system.Form9.resources
+C:\Users\A.S.Asbury\OneDrive\Documents\programming\leave management system\leave management system\bin\Debug\Database1.mdf
+C:\Users\A.S.Asbury\OneDrive\Documents\programming\leave management system\leave management system\bin\Debug\Database1_log.ldf
+E:\leave management system\leave management system\bin\Debug\leave management system.exe.config
+E:\leave management system\leave management system\obj\Debug\leave management system.exe
+E:\leave management system\leave management system\obj\Debug\leave management system.pdb
+E:\leave management system\leave management system\bin\Debug\Database1.mdf
+E:\leave management system\leave management system\bin\Debug\Database1_log.ldf
+E:\leave management system\leave management system\bin\Debug\leave management system.exe
+E:\leave management system\leave management system\bin\Debug\leave management system.pdb
+E:\leave management system\leave management system\obj\Debug\leave management system.csprojResolveAssemblyReference.cache
+E:\leave management system\leave management system\obj\Debug\leave_management_system.Form1.resources
+E:\leave management system\leave management system\obj\Debug\leave_management_system.Form10.resources
+E:\leave management system\leave management system\obj\Debug\leave_management_system.Form2.resources
+E:\leave management system\leave management system\obj\Debug\leave_management_system.Form3.resources
+E:\leave management system\leave management system\obj\Debug\leave_management_system.Form4.resources
+E:\leave management system\leave management system\obj\Debug\leave_management_system.Form5.resources
+E:\leave management system\leave management system\obj\Debug\leave_management_system.Form6.resources
+E:\leave management system\leave management system\obj\Debug\leave_management_system.Form7.resources
+E:\leave management system\leave management system\obj\Debug\leave_management_system.Form8.resources
+E:\leave management system\leave management system\obj\Debug\leave_management_system.Form9.resources
+E:\leave management system\leave management system\obj\Debug\leave_management_system.Properties.Resources.resources
+E:\leave management system\leave management system\obj\Debug\leave management system.csproj.GenerateResource.Cache
+C:\Users\NEXT GEN\Desktop\leave management system\leave management system\bin\Debug\leave management system.exe.config
+C:\Users\NEXT GEN\Desktop\leave management system\leave management system\obj\Debug\leave management system.exe
+C:\Users\NEXT GEN\Desktop\leave management system\leave management system\obj\Debug\leave management system.pdb
+D:\leave management system\leave management system\bin\Debug\leave management system.exe.config
+D:\leave management system\leave management system\obj\Debug\leave management system.exe
+D:\leave management system\leave management system\obj\Debug\leave management system.pdb
+D:\leave management system\leave management system\bin\Debug\Database1.mdf
+D:\leave management system\leave management system\bin\Debug\Database1_log.ldf
+D:\leave management system\leave management system\bin\Debug\leave management system.exe
+D:\leave management system\leave management system\bin\Debug\leave management system.pdb
+D:\leave management system\leave management system\obj\Debug\leave management system.csprojResolveAssemblyReference.cache
+D:\leave management system\leave management system\obj\Debug\leave_management_system.Form1.resources
+D:\leave management system\leave management system\obj\Debug\leave_management_system.Form10.resources
+D:\leave management system\leave management system\obj\Debug\leave_management_system.Form2.resources
+D:\leave management system\leave management system\obj\Debug\leave_management_system.Form3.resources
+D:\leave management system\leave management system\obj\Debug\leave_management_system.Form4.resources
+D:\leave management system\leave management system\obj\Debug\leave_management_system.Form5.resources
+D:\leave management system\leave management system\obj\Debug\leave_management_system.Form6.resources
+D:\leave management system\leave management system\obj\Debug\leave_management_system.Form7.resources
+D:\leave management system\leave management system\obj\Debug\leave_management_system.Form8.resources
+D:\leave management system\leave management system\obj\Debug\leave_management_system.Form9.resources
+D:\leave management system\leave management system\obj\Debug\leave_management_system.Properties.Resources.resources
+D:\leave management system\leave management system\obj\Debug\leave management system.csproj.GenerateResource.Cache
+C:\Users\A.S.Asbury\OneDrive\Desktop\leave management system\leave management system\bin\Debug\leave management system.exe.config
+C:\Users\A.S.Asbury\OneDrive\Desktop\leave management system\leave management system\obj\Debug\leave management system.exe
+C:\Users\A.S.Asbury\OneDrive\Desktop\leave management system\leave management system\obj\Debug\leave management system.pdb
+C:\Users\A.S.Asbury\OneDrive\Desktop\leave management system\leave management system\bin\Debug\Database1.mdf
+C:\Users\A.S.Asbury\OneDrive\Desktop\leave management system\leave management system\bin\Debug\Database1_log.ldf
+C:\Users\A.S.Asbury\OneDrive\Desktop\leave management system\leave management system\bin\Debug\leave management system.exe
+C:\Users\A.S.Asbury\OneDrive\Desktop\leave management system\leave management system\bin\Debug\leave management system.pdb
+C:\Users\A.S.Asbury\OneDrive\Desktop\leave management system\leave management system\obj\Debug\leave management system.csprojResolveAssemblyReference.cache
+C:\Users\A.S.Asbury\OneDrive\Desktop\leave management system\leave management system\obj\Debug\leave_management_system.Form1.resources
+C:\Users\A.S.Asbury\OneDrive\Desktop\leave management system\leave management system\obj\Debug\leave_management_system.Form10.resources
+C:\Users\A.S.Asbury\OneDrive\Desktop\leave management system\leave management system\obj\Debug\leave_management_system.Form2.resources
+C:\Users\A.S.Asbury\OneDrive\Desktop\leave management system\leave management system\obj\Debug\leave_management_system.Form3.resources
+C:\Users\A.S.Asbury\OneDrive\Desktop\leave management system\leave management system\obj\Debug\leave_management_system.Form4.resources
+C:\Users\A.S.Asbury\OneDrive\Desktop\leave management system\leave management system\obj\Debug\leave_management_system.Form5.resources
+C:\Users\A.S.Asbury\OneDrive\Desktop\leave management system\leave management system\obj\Debug\leave_management_system.Form6.resources
+C:\Users\A.S.Asbury\OneDrive\Desktop\leave management system\leave management system\obj\Debug\leave_management_system.Form7.resources
+C:\Users\A.S.Asbury\OneDrive\Desktop\leave management system\leave management system\obj\Debug\leave_management_system.Form8.resources
+C:\Users\A.S.Asbury\OneDrive\Desktop\leave management system\leave management system\obj\Debug\leave_management_system.Form9.resources
+C:\Users\A.S.Asbury\OneDrive\Desktop\leave management system\leave management system\obj\Debug\leave_management_system.Properties.Resources.resources
+C:\Users\A.S.Asbury\OneDrive\Desktop\leave management system\leave management system\obj\Debug\leave management system.csproj.GenerateResource.Cache
+C:\Users\A.S.Asbury\OneDrive\Desktop\Sem 1\Programming\leave management system\leave management system\bin\Debug\leave management system.exe.config
+C:\Users\A.S.Asbury\OneDrive\Desktop\Sem 1\Programming\leave management system\leave management system\obj\Debug\leave management system.exe
+C:\Users\A.S.Asbury\OneDrive\Desktop\Sem 1\Programming\leave management system\leave management system\obj\Debug\leave management system.pdb
+C:\Users\A.S.Asbury\OneDrive\Desktop\Sem 1\Programming\leave management system\leave management system\bin\Debug\Database1.mdf
+C:\Users\A.S.Asbury\OneDrive\Desktop\Sem 1\Programming\leave management system\leave management system\bin\Debug\Database1_log.ldf
+C:\Users\A.S.Asbury\OneDrive\Desktop\Sem 1\Programming\leave management system\leave management system\bin\Debug\leave management system.exe
+C:\Users\A.S.Asbury\OneDrive\Desktop\Sem 1\Programming\leave management system\leave management system\bin\Debug\leave management system.pdb
+C:\Users\A.S.Asbury\OneDrive\Desktop\Sem 1\Programming\leave management system\leave management system\obj\Debug\leave management system.csprojResolveAssemblyReference.cache
+C:\Users\A.S.Asbury\OneDrive\Desktop\Sem 1\Programming\leave management system\leave management system\obj\Debug\leave_management_system.Form1.resources
+C:\Users\A.S.Asbury\OneDrive\Desktop\Sem 1\Programming\leave management system\leave management system\obj\Debug\leave_management_system.Form10.resources
+C:\Users\A.S.Asbury\OneDrive\Desktop\Sem 1\Programming\leave management system\leave management system\obj\Debug\leave_management_system.Form2.resources
+C:\Users\A.S.Asbury\OneDrive\Desktop\Sem 1\Programming\leave management system\leave management system\obj\Debug\leave_management_system.Form3.resources
+C:\Users\A.S.Asbury\OneDrive\Desktop\Sem 1\Programming\leave management system\leave management system\obj\Debug\leave_management_system.Form4.resources
+C:\Users\A.S.Asbury\OneDrive\Desktop\Sem 1\Programming\leave management system\leave management system\obj\Debug\leave_management_system.Form5.resources
+C:\Users\A.S.Asbury\OneDrive\Desktop\Sem 1\Programming\leave management system\leave management system\obj\Debug\leave_management_system.Form6.resources
+C:\Users\A.S.Asbury\OneDrive\Desktop\Sem 1\Programming\leave management system\leave management system\obj\Debug\leave_management_system.Form7.resources
+C:\Users\A.S.Asbury\OneDrive\Desktop\Sem 1\Programming\leave management system\leave management system\obj\Debug\leave_management_system.Form8.resources
+C:\Users\A.S.Asbury\OneDrive\Desktop\Sem 1\Programming\leave management system\leave management system\obj\Debug\leave_management_system.Form9.resources
+C:\Users\A.S.Asbury\OneDrive\Desktop\Sem 1\Programming\leave management system\leave management system\obj\Debug\leave_management_system.Properties.Resources.resources
+C:\Users\A.S.Asbury\OneDrive\Desktop\Sem 1\Programming\leave management system\leave management system\obj\Debug\leave management system.csproj.GenerateResource.Cache
