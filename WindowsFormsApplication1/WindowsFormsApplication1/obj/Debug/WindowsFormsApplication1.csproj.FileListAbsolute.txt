@@ -1,0 +1,15 @@
+C:\Users\A.S.Asbury\OneDrive\Desktop\Diploma System\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\A.S.Asbury\OneDrive\Desktop\Diploma System\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\A.S.Asbury\OneDrive\Desktop\Diploma System\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\A.S.Asbury\OneDrive\Desktop\Diploma System\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\A.S.Asbury\OneDrive\Desktop\Diploma System\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\A.S.Asbury\OneDrive\Desktop\Diploma System\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form2.resources
+C:\Users\A.S.Asbury\OneDrive\Desktop\Diploma System\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form3.resources
+C:\Users\A.S.Asbury\OneDrive\Desktop\Diploma System\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form4.resources
+C:\Users\A.S.Asbury\OneDrive\Desktop\Diploma System\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\A.S.Asbury\OneDrive\Desktop\Diploma System\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\A.S.Asbury\OneDrive\Desktop\Diploma System\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\A.S.Asbury\OneDrive\Desktop\Diploma System\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\A.S.Asbury\OneDrive\Desktop\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\A.S.Asbury\OneDrive\Desktop\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\A.S.Asbury\OneDrive\Desktop\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
